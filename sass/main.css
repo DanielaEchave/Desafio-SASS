@@ -1,0 +1,40 @@
+.navbar {
+  background-color: #16a085;
+}
+.navbar div a img {
+  background-color: #16a085;
+}
+
+#categorias {
+  background-color: #eeeeee;
+}
+
+div.collage {
+  background-color: #eeeeee;
+}
+div.collage img {
+  background: white;
+  transition: background ease-in 0.3s;
+  transition: transform 0.2s;
+  margin: 0 auto;
+}
+div.collage img:hover {
+  filter: brightness(1.5);
+  transform: scale(0.98);
+}
+
+@media (max-width: 576px) {
+  .logoTodoExplosion img {
+    width: auto;
+    height: 100px;
+  }
+
+  .navbar .container-fluid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .carousel-item img {
+    height: 500px;
+  }
+}/*# sourceMappingURL=main.css.map */
